@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
             background-repeat: no-repeat;;
         }
         .container {
-            background-color: white; /* Changed background color */
+            background-color: white; /* Changed background color........... */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 40px;
