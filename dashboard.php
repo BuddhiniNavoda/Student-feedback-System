@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@
             background-repeat: no-repeat;;
         }
         .container {
-            background-color: white; /* Changed background color........... */
+            background-color: white; /* Changed background color */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 40px;
@@ -58,8 +57,10 @@
         </div>
         <a href="course_manage.php" class="btn">Course Management</a>
         <a href="lecture_manage.php" class="btn">Lecture Management</a>
-        <a href="lecture_feedback_form.php" class="btn">Lecture Feedback Summary</a>
-        <a href="process_courcefeedback.php" class="btn">Course Feedback Summary</a>
+		<a href="edit_course_feedback.php" class="btn">Edit Course Feedback</a>
+		<a href="edit_lecture_feedback.php" class="btn">Edit Lecture Feedback</a>
+		<a href="feedback_list.php" class="btn">Course Feedback Summary</a>
+        <a href="Lecture_feedback_list.php" class="btn">Lecture Feedback Summary</a>
         <a href="summary_feedback_forms.php" class="btn">Summary of Total Feedback forms </a>
         <a href="logout.php" class="btn">Logout</a>
     </div>
