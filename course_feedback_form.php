@@ -1,5 +1,4 @@
 <?php
-// course_feedback_form
 
 // Establish a database connection
 $servername = "localhost"; // Change this to your servername
