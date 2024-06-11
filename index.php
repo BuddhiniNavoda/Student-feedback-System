@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,35 +7,63 @@
     <style>
         body {
             background-image: url('faculty.jpg');
-            background-size: cover; /* Cover the entire body with the background image */
+            background-size: cover; 
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 20px;
         }
         .container {
-            background-color: rgba(95, 158, 160, 0.7); /* Semi-transparent background color */
+            background-color: rgba(95, 158, 160, 0.7); 
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 40px;
-            width: 90%; /* Adjust the width as needed */
-            max-width: 600px; /* Set a maximum width to prevent the container from becoming too wide */
+            width: 90%; 
+            max-width: 600px; 
             margin: 100px auto;
         }
         h1 {
             color: black;
             margin-bottom: 20px;
         }
-        p {
+        p { color: black;
             margin-bottom: 40px;
-            font-size: 1.2em; /* Increase the font size */
+            font-size: 1.2em; 
         }
-        a {
-            color: black; 
-            text-decoration: underline;
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
-        a:hover {
-            text-decoration: underline;
+        .login-button {
+            background-color: #4CAF50; /* Green background */
+            border: 2px solid black; /* Black border around the button */
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .login-button:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+        .logo-container {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto 20px; /* Center the logo and add bottom margin */
+        }
+        .logo-container img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -44,60 +71,14 @@
     <div class="container">
         <h1>Welcome to the Student Feedback Management System</h1>
         <p>FACULTY OF ENGINEERING UNIVERSITY OF JAFFNA</p>
-        <img src="campus_logo.png" alt="Campus Logo" style="width: 150px; margin-bottom: 20px;">
-        <p>Please <a href="login.php">log in</a>, <a href="MA_login.php">Manage Assistant login</a>, or <a href="lecture_login.php">Lecture login</a>.</p>
+        <div class="logo-container">
+            <img src="campus_logo.png" alt="Campus Logo">
+        </div>
+        <div class="button-container">
+            <a href="login.php"><button class="login-button">Student Login</button></a>
+            <a href="MA_login.php"><button class="login-button">Manage Assistant Login</button></a>
+            <a href="lecture_login.php"><button class="login-button">Lecture Login</button></a>
+        </div>
     </div>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Feedback Management System</title>
-    <style>
-        body {
-            background-image: url('faculty.jpg');
-            background-size: cover; /* Cover the entire body with the background image */
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            background-color: rgba(95, 158, 160, 0.7); /* Semi-transparent background color */
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 40px;
-            width: 90%; /* Adjust the width as needed */
-            max-width: 600px; /* Set a maximum width to prevent the container from becoming too wide */
-            margin: 100px auto;
-        }
-        h1 {
-            color: black;
-            margin-bottom: 20px;
-        }
-        p {
-            margin-bottom: 40px;
-            font-size: 1.2em; /* Increase the font size */
-        }
-        a {
-            color: black; 
-            text-decoration: underline;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Welcome to the Student Feedback Management System</h1>
-        <p>FACULTY OF ENGINEERING UNIVERSITY OF JAFFNA</p>
-        <img src="campus_logo.png" alt="Campus Logo" style="width: 150px; margin-bottom: 20px;">
-        <p>Please <a href="login.php">log in</a>, <a href="MA_login.php">Manage Assistant login</a>, or <a href="lecture_login.php">Lecture login</a>.</p>
-    </div>
-</body>
-</html>
->>>>>>> 3dd0583586d2aabc9dd7c8843076206d74304298
