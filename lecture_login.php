@@ -1,4 +1,5 @@
 <?php
+//lecture login
 // Database configuration
 $host = "localhost"; // Host name
 $user = "root"; // Database username
