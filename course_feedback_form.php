@@ -5,7 +5,6 @@ $username = "root"; // Change this to your username
 $password = ""; // Change this to your password
 $dbname = "feedback_management_system"; // Change this to your database name
 
-// Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // Check connection
